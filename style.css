@@ -18,15 +18,13 @@ body {
 }
 .product-image {
   width: 300px;
-  margin: 0 31.5px 0 0;
   border-radius: 10px 0 0 10px;
 }
-/* .content {
-  padding: 0 31.5px 0 0;
-} */
+.content {
+  padding: 30px 25px;
+}
 .perfume {
   font-family: "Montserrat", sans-serif;
-  margin: 32px 54.5px 20px 1px;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 5px;
@@ -35,14 +33,15 @@ body {
 }
 .name {
   font-family: "Fraunces", serif;
-  margin: 20px 31.5px 24px 1px;
+  margin: 20px 0 24px 0;
   font-size: 32px;
+  width: 236px;
   line-height: 1;
   color: #1c232b;
 }
 .product-description {
   font-family: "Montserrat", sans-serif;
-  margin: 24px 28 29px 1px;
+  width: 237px;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.64;
@@ -50,7 +49,7 @@ body {
 }
 .discounted-price {
   position: relative;
-  margin: 29px 19px 30px 1px;
+  margin: 29px 0 30px 0;
   font-family: Fraunces;
   font-size: 32px;
   font-weight: bold;
@@ -59,7 +58,7 @@ body {
 }
 .old-price {
   position: absolute;
-  left: 57%;
+  left: 62%;
   top: 14%;
   font-family: Montserrat;
   text-decoration: line-through;
@@ -69,11 +68,13 @@ body {
   color: #6c7289;
 }
 .button-container {
-  width: 236px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   height: 48px;
   padding: 15px 62px 15px 63px;
   border-radius: 8px;
-  background-color: #3d8168;
+  background-color: #1a4032;
 }
 button {
   all: unset;
@@ -81,7 +82,4 @@ button {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-}
-.cart-icon {
-  margin: 0 5px 0 0;
 }
